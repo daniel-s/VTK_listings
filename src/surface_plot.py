@@ -160,8 +160,6 @@ def yolo(first, second):
     # Add new text
     renderer.AddActor2D(text)
     
-    import pdb
-    pdb.set_trace()
     
 pick1 = vtk.vtkCellPicker()
 pick1.AddObserver(vtk.vtkCommand.EndPickEvent, yolo)
